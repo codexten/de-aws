@@ -7,3 +7,4 @@ services:
     volumes:
       - ${HOME}/projects:/projects
       - ./aws:/home/codexten/.aws
+      - ./ssh:/home/codexten/.ssh
